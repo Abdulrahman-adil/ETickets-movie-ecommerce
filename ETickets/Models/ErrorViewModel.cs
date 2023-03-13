@@ -1,4 +1,4 @@
-namespace ETickets.Models
+﻿namespace ETickets.Models
 {
     public class ErrorViewModel
     {
