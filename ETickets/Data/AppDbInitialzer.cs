@@ -1,5 +1,6 @@
 ﻿using ETickets.Data.Enums;
 using ETickets.Models;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 
 namespace ETickets.Data
 {
@@ -314,5 +315,10 @@ namespace ETickets.Data
                 }
             }
         }
-    }
+
+        // public static void Seed(this ModelBuilder modelBuilder)
+        //{
+        //    modelBuilder.Entity<Actor>().HasData()
+        //}
+     }
 }
