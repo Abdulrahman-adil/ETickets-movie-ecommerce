@@ -35,6 +35,8 @@ namespace ETickets
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
 
+            AppDbInitialzer.Seed(app);
+
             app.Run();
         }
     }
